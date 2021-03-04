@@ -3,6 +3,8 @@
 Author: Shreya Deshmukh (Stanford University).
 Last updated 4 March 2021.
 
+This code is written for the purpose of modelling the biophysical manipulation of cells in a microscale magnetic levitation system, and measuring from image data the results of levitation as height distributions in order to classify their malaria infection status. This work has been developed in the Demirci research group at Stanford University's Canary Center for Early Cancer Detection.
+
 System requirements:
 This software has been tested on a 64-bit machine with a Windows 10 operating system. It does not require any non-standard hardware.
 This code has been run as part of the "jupyter notebook" implementation of python 2.7 through Anaconda, using the .ipynb files that can be found in this repository to process data of cell levitation images. It also depends on the installation (e.g. through pip install) of a number of modules, including: OpenCV for python ("cv2", up to version 4.2.0.32 is supported for python 2.7). 
